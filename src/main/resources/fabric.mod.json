@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "stardewclock",
+  "version": "${version}",
+  "name": "Stardew Clock",
+  "description": "A cozy pixel-art HUD clock with time and coordinates.",
+  "authors": [
+    "pallep"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/stardewclock/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.pallep.stardewclock.client.StardewClockClient"
+    ],
+    "modmenu": [
+      "com.pallep.stardewclock.client.integration.StardewClockModMenu"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "modmenu": ">=7.0.0"
+  }
+}

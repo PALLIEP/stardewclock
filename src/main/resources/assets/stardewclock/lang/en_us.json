@@ -1,0 +1,11 @@
+{
+  "screen.stardewclock.config": "Stardew Clock",
+  "option.stardewclock.show_time": "Time",
+  "option.stardewclock.show_coordinates": "Coordinates",
+  "option.stardewclock.offset_x": "Horizontal Offset",
+  "option.stardewclock.offset_y": "Vertical Offset",
+  "stardewclock.anchor.top_left": "Top Left",
+  "stardewclock.anchor.top_right": "Top Right",
+  "stardewclock.anchor.bottom_left": "Bottom Left",
+  "stardewclock.anchor.bottom_right": "Bottom Right"
+}
