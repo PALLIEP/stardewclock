@@ -18,8 +18,8 @@ public class StardewClockConfig {
     public boolean showTime = true;
     public boolean showCoordinates = true;
     public Anchor anchor = Anchor.TOP_RIGHT;
-    public int offsetX = 8;
-    public int offsetY = 8;
+    public int offsetX = 4;
+    public int offsetY = 4;
 
     public static StardewClockConfig load() {
         Path path = configPath();
