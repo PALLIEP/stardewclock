@@ -22,7 +22,7 @@ public final class StardewClockHud {
     private static final int ARROW_HEIGHT = 19;
     private static final int SMALL_ICON_WIDTH = 12;
     private static final int SMALL_ICON_HEIGHT = 8;
-    private static final int TEXT_COLOR = 0x33223A;
+    private static final int TEXT_COLOR = 0xFF33223A;
     private static final int SHADOW_COLOR = 0xFFD27C;
 
     private StardewClockHud() {
